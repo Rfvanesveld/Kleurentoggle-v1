@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOGGLE 1</title>
+    <link rel="stylesheet" href="./Stylesheet-1.css">
+</head>
+
+<body>
+
+    <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav ()">
+            <!-- <h1>&#9776;</h1> -->
+        </div>
+    </nav>
+
+    <!-- <aside class="nav-sidebar">
+        <ul>
+            <li onclick="Silver()" value="Silver" class="Silver Color">HOME</li>
+            <li onclick="Blue()" value="Blue" class="Blue Color">BLUE</li>
+            <li onclick="Orange()" value="Orange" class="Orange Color">ORANGE</li>
+            <li onclick="Red()" value="Red" class="Red Color">RED</li>
+            <li onclick="Green()" value="Green" class="Green Color">GREEN</li>
+        </ul>
+
+    </aside> -->
+
+    <aside class="nav-sidebar">
+        <ul>
+            <li class="Silver Color" onclick="Silver()">HOME
+                <label class="custom-radio-button">
+                    <input type="radio" checked name="sample">
+                    <span class="checkmark"></span>
+                </label>
+            </li>
+
+            <li class="Blue Color" onclick="Blue()">BLUE
+                <label class="custom-radio-button">
+                    <input type="radio" checked="checked" name="sample">
+                    <span class="checkmark"></span>
+                </label>
+            </li>
+
+            <li class="Orange Color" onclick="Orange()">ORANGE
+                <label class="custom-radio-button">
+                    <input type="radio" checked="checked" name="sample">
+                    <span class="checkmark"></span>
+                </label>
+            </li>
+
+            <li class="Red Color" onclick="Red()">RED
+                <label class="custom-radio-button">
+                    <input type="radio" checked="checked" name="sample">
+                    <span class="checkmark"></span>
+                </label>
+            </li>
+
+            <li class="Green Color" onclick="Green()">GREEN
+                <label class="custom-radio-button">
+                    <input type="radio" checked="checked" name="sample">
+                    <span class="checkmark"></span>
+                </label>
+            </li>
+        </ul>
+    </aside>
+
+    <script defer src="./script-1.js"></script>
+</body>
+
+</html>
